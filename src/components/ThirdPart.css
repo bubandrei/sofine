@@ -1,4 +1,5 @@
-.second-container{
+.third-container{
+    margin-bottom: 0.5%;
 
 }
 .inner-Third-Container{
@@ -10,8 +11,10 @@
 min-width: 33%;
 }
 .third-row-img{
-min-width: 67%;
+    min-width: 66.5%;
+    margin-left: 0.5%;
 }
 .third-img{
     width: 100%;
+    height: 100%;
 }

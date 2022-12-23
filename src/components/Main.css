@@ -1,11 +1,8 @@
 .img-fluid {
     position: relative;
-    /* padding-top: 56.25%; */
+    margin-bottom: -4px;
   }
 .img-main {
-    /* position: absolute;
-    left: 0;
-    top: 0; */
     width: 100%;
     height: auto;
   }

@@ -1,5 +1,5 @@
 .second-container{
-
+margin-bottom: 0.5%;
 }
 .inner-Second-Container{
     display: flex;
@@ -10,7 +10,8 @@
 min-width: 33%;
 }
 .second-row-img{
-min-width: 67%;
+    min-width: 66.5%;
+    margin-left: 0.5%;
 }
 .second-img{
     width: 100%;

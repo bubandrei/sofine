@@ -14,7 +14,7 @@ const FourthPart = () => {
                         <img src={koloryzacja} className="third-img"></img>
                     </div>
                     <div className="fourth-row-img">
-                        <img src={pure} className="third-img"></img>
+                        <img src={pure} className="fourth-img"></img>
                     </div>
                 </div>
             </div>
