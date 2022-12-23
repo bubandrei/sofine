@@ -1,0 +1,17 @@
+.fourth-container{
+
+}
+.inner-Fourth-Container{
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+}
+.fourth-title{
+min-width: 67%;
+}
+.fourth-row-img{
+min-width: 33%;
+}
+.fourth-img{
+    width: 100%;
+}

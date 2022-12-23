@@ -1,4 +1,5 @@
 import './App.css';
+import FourthPart from './components/FourthPart';
 import Main from './components/Main';
 import Navbar from './components/Navbar.js';
 import SecondPart from './components/SecondPart';
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <SecondPart/>
       <ThirdPart/>
+      <FourthPart/>
     </>
   );
 }
