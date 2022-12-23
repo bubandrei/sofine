@@ -1,0 +1,22 @@
+.container-toggle{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 87%;
+    right: 5%;
+    width: 40%;
+    align-items: center;
+}
+.line{
+    border: 0.1px white solid;
+    width: 45%;
+}
+.textToggle{
+    font-size: 0.7vw;
+    color: white;
+    padding: 0 5%;
+}
+.arrowToggle{
+    color: white;
+    font-size: 1rem;
+}

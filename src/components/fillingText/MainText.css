@@ -24,3 +24,18 @@
 .svgFill{
     margin-bottom: 8%;
 }
+.containerMainToggle{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    align-items: center;
+    margin-top: 20%;
+}
+.lineMainToggle{
+    border-bottom: 0.1px white solid;
+    width: 75%;
+}
+.arrowMainToggle{
+    color: white;
+    font-size: 1rem;
+}

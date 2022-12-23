@@ -13,6 +13,8 @@
 }
 .fourth-row-img{
     position: relative;
+    display: flex;
+    flex-direction: column;
 min-width: 33%;
 }
 .fourth-img{

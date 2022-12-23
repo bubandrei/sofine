@@ -3,6 +3,7 @@ import './SecondPart.css';
 import care from '../assets/01_care.jpg'
 import SecondText from "./fillingText/SecondText";
 import Name from "./fillingText/Name";
+import ToggleSerie from "./ToggleSerie";
 
 const SecondPart = () => {
 
@@ -16,6 +17,7 @@ const SecondPart = () => {
                     <div className="second-row-img">
                         <img src={care} className="second-img"></img>
                         <Name />
+                        <ToggleSerie/>
                     </div>
                 </div>
             </div>

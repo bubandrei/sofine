@@ -19,7 +19,10 @@ const MainText = () => {
                     <div className="secondString">Idealnie takie jak lubisz.</div>
                     <div className="callName">KEUNE <span className="textContainerBold">DESIGN</span></div>
                 </div>
-                <div>------------</div>
+                <div className="containerMainToggle">
+                    <div className="lineMainToggle"></div>
+                    <div className="arrowMainToggle">&gt;</div>
+                </div>
             </div>
         </>
     )
