@@ -1,45 +1,50 @@
 import React from "react";
 import './Navbar.css';
-import logoKEUNE from '../assets/logo_KEUNE.svg'
+import logoKEUNE from '../assets/logo_KEUNE.svg';
+import logoKEUNEWhite from '../assets/logo_KEUNE_WHITE.svg'
 
 const Navbar = () => {
     return (
         <>
-            <div className="header">
-                <div className="container">
-                    {/* <h1 className="primary">KEUNE</h1> */}
-                    <img src={logoKEUNE}></img>
+            <div className="nav-container">
+                <nav className="navbar">
+                    <div className="navbar-logo">
+                        <img src={logoKEUNEWhite}></img>
+                    </div>
                     <ul className='nav-menu'>
                         <li>
-                            <a href="/">Nowosci</a>
+                            <a href="/" className="nav-links">Nowosci</a>
                         </li>
                         <li>
-                            <a href="/">Produkty</a>
+                            <a href="/" className="nav-links">Produkty</a>
                         </li>
                         <li>
-                            <a href="/">Trendy</a>
+                            <a href="/" className="nav-links">Trendy</a>
                         </li>
                         <li>
-                            <a href="/">O firmie</a>
+                            <a href="/" className="nav-links">O firmie</a>
                         </li>
                         <li>
-                            <a href="/">Salony</a>
+                            <a href="/" className="nav-links">Salony</a>
                         </li>
                         <li>
-                            <a href="/">Dystrybutorzy</a>
+                            <a href="/" className="nav-links">Dystrybutorzy</a>
                         </li>
                         <li>
-                            <a href="/">Kontakt</a>
+                            <a href="/" className="nav-links">Kontakt</a>
                         </li>
                         <li>
-                            <a href="/">Icons</a>
+                            <a href="/" className="nav-links">Icons</a>
                         </li>
                     </ul>
                     {/* <div className="hamburger" onClick={handleClick}>
                         {click ? (<FaTimes size={20} style={{ color: '#333' }} />) : (<FaBars size={20} style={{ color: '#333' }} />)}
 
                     </div> */}
-                </div>
+
+
+                </nav>
+
 
             </div>
         </>
