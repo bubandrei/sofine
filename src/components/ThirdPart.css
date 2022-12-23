@@ -1,0 +1,17 @@
+.second-container{
+
+}
+.inner-Third-Container{
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+}
+.third-title{
+min-width: 33%;
+}
+.third-row-img{
+min-width: 67%;
+}
+.third-img{
+    width: 100%;
+}
