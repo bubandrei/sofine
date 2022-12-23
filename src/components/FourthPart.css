@@ -7,10 +7,12 @@
     justify-content: flex-end;
 }
 .fourth-title{
+    position: relative;
     min-width: 66.5%;
     margin-right: 0.5%;
 }
 .fourth-row-img{
+    position: relative;
 min-width: 33%;
 }
 .fourth-img{

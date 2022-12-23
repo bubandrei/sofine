@@ -1,5 +1,6 @@
 import React from "react";
 import './SecondText.css'
+import Name from "./Name";
 
 
 const SecondText = () => {
@@ -14,8 +15,8 @@ const SecondText = () => {
                         <text x='40' y='83' fontSize='80' stroke="black" fill="black">2.</text>
                     </svg>
                 </div>
-                <div className="textContainer">
-                    <div className="callName">
+                <div className="callTextContainer">
+                <div className="secondCallName">
                         <div>MARKI</div>
                         <div>KEUNE</div>
                     </div>

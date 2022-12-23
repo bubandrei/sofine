@@ -2,6 +2,7 @@ import React from "react";
 import './ThirdPart.css';
 import design from '../assets/02_design.jpg';
 import blend from '../assets/03_blend_1.jpg';
+import Name from "./fillingText/Name";
 
 const ThirdPart = () => {
 
@@ -11,9 +12,11 @@ const ThirdPart = () => {
                 <div className="inner-Third-Container">
                     <div className="third-title">
                         <img src={design} className="third-img"></img>
+                        <Name/>
                     </div>
                     <div className="third-row-img">
                         <img src={blend} className="third-img"></img>
+                        <Name/>
                     </div>
                 </div>
             </div>

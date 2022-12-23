@@ -1,21 +1,21 @@
 .secondTextContainer{
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 35%;
+    left: 10%;
     width: 35%;
 }
 .symbolNearCircle{
     font-size: 6rem;
 
 }
-.textContainer{
+.callTextContainer{
     font-size: 4rem;
     text-align: center;
 }
 .textContainerBold{
     font-weight: 900;
 }
-.callName{
+.secondCallName{
     font-size: 3vw;
 }
 .secondString{
@@ -24,4 +24,7 @@
 }
 .svgFill{
     margin-bottom: 8%;
+}
+.second-row-img{
+    position: relative;
 }
