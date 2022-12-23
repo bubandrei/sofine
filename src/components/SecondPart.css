@@ -1,0 +1,17 @@
+.second-container{
+
+}
+.inner-Second-Container{
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+}
+.second-title{
+min-width: 33%;
+}
+.second-row-img{
+min-width: 67%;
+}
+.second-img{
+    width: 100%;
+}
