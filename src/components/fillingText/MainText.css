@@ -1,0 +1,26 @@
+.mainTextContainer{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: white;
+}
+.symbolNearCircle{
+    font-size: 6rem;
+
+}
+.textContainer{
+    font-size: 4rem;
+}
+.textContainerBold{
+    font-weight: 900;
+}
+.callName{
+    font-size: 2vw;
+}
+.secondString{
+    margin-bottom: 4%;
+    font-size: 4vw;
+}
+.svgFill{
+    margin-bottom: 8%;
+}
