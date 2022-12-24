@@ -16,6 +16,7 @@
 }
 .callName{
     font-size: 2vw;
+    margin-top: 4%;
 }
 .secondString{
     margin-bottom: 4%;
@@ -29,13 +30,24 @@
     justify-content: space-between;
     width: 55%;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 8%;
+    height: 6rem;
 }
 .lineMainToggle{
-    border-bottom: 0.1px white solid;
+    border-bottom: 1px white solid;
     width: 75%;
 }
 .arrowMainToggle{
     color: white;
     font-size: 1rem;
+    width: 20%;
+    border: 1px white solid;
+    aspect-ratio: 1;
+    border-radius: 50% 50%;
+    display: flex;
+}
+.arrowStyle{
+    align-self: center;
+    text-align: center;
+    width: 100%;
 }

@@ -21,7 +21,7 @@ const MainText = () => {
                 </div>
                 <div className="containerMainToggle">
                     <div className="lineMainToggle"></div>
-                    <div className="arrowMainToggle">&gt;</div>
+                    <div className="arrowMainToggle"><span className="arrowStyle">&gt;</span></div>
                 </div>
             </div>
         </>
