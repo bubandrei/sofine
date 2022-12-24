@@ -10,7 +10,7 @@ import listOfName from './components/store.js';
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Main />
       <SecondPart listOfName={listOfName}/>
       <ThirdPart listOfName={listOfName}/>

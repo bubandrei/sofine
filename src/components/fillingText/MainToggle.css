@@ -2,9 +2,15 @@
     position: absolute;
     top: 70%;
     left: 50%;
-    font-size: 2rem;
+    font-size: 2rem;   
+}
+.isWhiteColor{
     color: white;
 }
+.isBlackColor{
+    color: black;
+}
+
 .toggleLeft{
 
 }
