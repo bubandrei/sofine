@@ -6,7 +6,7 @@ import Name from "./fillingText/Name";
 import ToggleSerie from "./ToggleSerie";
 import NameToggleColumn from "./fillingText/NameToggleColumn";
 
-const ThirdPart = () => {
+const ThirdPart = ({listOfName}) => {
 
     return (
         <>
@@ -16,11 +16,11 @@ const ThirdPart = () => {
                         <img src={design} className="third-img"></img>
                         {/* <Name/>
                         <ToggleSerie/> */}
-                        <NameToggleColumn/>
+                        <NameToggleColumn name={listOfName.design}/>
                     </div>
                     <div className="third-row-img">
                         <img src={blend} className="third-img"></img>
-                        <Name/>
+                        <Name name={listOfName.blend}/>
                         <ToggleSerie/>
                     </div>
                 </div>

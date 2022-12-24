@@ -10,7 +10,9 @@
 }
 .callTextContainer{
     font-size: 4rem;
-    text-align: center;
+    text-align: start;
+    position: absolute;
+    left: 15%;
 }
 .textContainerBold{
     font-weight: 900;

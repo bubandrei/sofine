@@ -2,12 +2,12 @@ import React from "react";
 import './NameToggleColumn.css'
 
 
-const NameToggleColumn = () => {
+const NameToggleColumn = ({name}) => {
     return (
         <>
             <div className="forNameToggleColumn">
-                <div>MARKI</div>
                 <div>KEUNE</div>
+                <div>{name}</div>
                 <div className="container-NameToggleColumn">
                     <div className="line-NameToggleColumn"></div>
                     <div className="textToggle-NameToggleColumn">ODKRYJ SERIE</div>

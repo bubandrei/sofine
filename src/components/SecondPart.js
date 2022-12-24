@@ -5,18 +5,19 @@ import SecondText from "./fillingText/SecondText";
 import Name from "./fillingText/Name";
 import ToggleSerie from "./ToggleSerie";
 
-const SecondPart = () => {
+const SecondPart = ({listOfName}) => {
+    console.log(listOfName)
 
     return (
         <>
             <div className="second-container">
                 <div className="inner-Second-Container">
                     <div className="second-title">
-                        <SecondText />
+                        <SecondText name={listOfName.marki}/>
                     </div>
                     <div className="second-row-img">
                         <img src={care} className="second-img"></img>
-                        <Name />
+                        <Name name={listOfName.care}/>
                         <ToggleSerie/>
                     </div>
                 </div>

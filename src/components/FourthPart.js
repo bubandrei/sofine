@@ -6,7 +6,7 @@ import Name from "./fillingText/Name";
 import ToggleSerie from "./ToggleSerie";
 import NameToggleColumn from "./fillingText/NameToggleColumn";
 
-const FourthPart = () => {
+const FourthPart = ({listOfName}) => {
 
     return (
         <>
@@ -14,12 +14,12 @@ const FourthPart = () => {
                 <div className="inner-Fourth-Container">
                     <div className="fourth-title">
                         <img src={koloryzacja} className="third-img"></img>
-                        <Name/>
+                        <Name name={listOfName.koloryzacja}/>
                         <ToggleSerie/>
                     </div>
                     <div className="fourth-row-img">
                         <img src={pure} className="fourth-img"></img>
-                        <NameToggleColumn/>
+                        <NameToggleColumn name={listOfName.sopure}/>
                         {/* <ToggleSerie/> */}
                     </div>
                 </div>

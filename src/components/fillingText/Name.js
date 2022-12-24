@@ -2,12 +2,12 @@ import React from "react";
 import './Name.css'
 
 
-const Name = () => {
+const Name = ({name}) => {
     return (
         <>
             <div className="forName">
-                <div>MARKI</div>
                 <div>KEUNE</div>
+                <div>{name}</div>
             </div>
         </>
     )

@@ -4,7 +4,7 @@ import './SecondText.css'
 
 
 
-const SecondText = () => {
+const SecondText = ({name}) => {
     return (
         <>
             <div className="secondTextContainer">
@@ -18,7 +18,7 @@ const SecondText = () => {
                 </div>
                 <div className="callTextContainer">
                     <div className="secondCallName">
-                        <div>MARKI</div>
+                        <div>{name}</div>
                         <div>KEUNE</div>
                     </div>
                 </div>
