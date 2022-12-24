@@ -27,6 +27,9 @@
 .nav-links{
   color: white;
 }
+.nav-links-black{
+  color:black;
+}
 .row-Item{
   display: flex;
   flex-direction: column;

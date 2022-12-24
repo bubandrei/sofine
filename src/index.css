@@ -4,7 +4,9 @@
   font-family: "Futura PT";
   src: url("./fonts/FuturaPT-Light.woff2") format("woff2")
  }
-
+:root{
+  --main-color: white;
+}
 * {
   margin: 0;
   padding: 0;

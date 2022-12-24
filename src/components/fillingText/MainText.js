@@ -2,10 +2,10 @@ import React from "react";
 import './MainText.css'
 
 
-const MainText = () => {
+const MainText = ({isBlack}) => {
     return (
         <>
-            <div className="mainTextContainer">
+            <div className={`mainTextContainer ${isBlack?'isWhiteColor': 'isBlackColor'}`}>
                 <div className="svgFill">
                     <svg height="100" width="100">
                         <line x1="00" y1="100" x2="100" y2="0"

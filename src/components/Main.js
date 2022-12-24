@@ -1,17 +1,25 @@
-import React from "react";
-import mainBG from '../assets/slide1-big.jpg'
-import './Main.css'
+import React, { useState } from "react";
+import './Main.css';
 import MainText from "./fillingText/MainText";
+import MainToggle from "./fillingText/MainToggle";
+import storeImg from "./storeImg";
 
 
 const Main = () => {
+    const [isMainImg, setMainImg] = useState(true);
+    console.log(storeImg)
+    const toggle = () => {
+        setMainImg(!isMainImg)
+    }
+
     return (
         <>
             <div className="main-container">
                 <div className="img-fluid">
-                    <img src={mainBG} className='img-main'></img>
+                    <img src={isMainImg ? storeImg.slide1 : storeImg.slide2} className='img-main'></img>
                 </div>
-                <MainText />
+                <MainText isBlack={isMainImg} />
+                <MainToggle toggle={toggle} />
             </div>
 
         </>

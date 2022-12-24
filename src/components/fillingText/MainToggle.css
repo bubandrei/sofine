@@ -1,0 +1,16 @@
+.mainToggle{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 2rem;
+    color: white;
+}
+.toggleLeft{
+
+}
+.toggleRight{
+
+}
+.toggle:hover{
+    cursor: pointer;
+}

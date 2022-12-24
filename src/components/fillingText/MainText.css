@@ -2,7 +2,13 @@
     position: absolute;
     top: 35%;
     left: 10%;
+
+}
+.isWhiteColor{
     color: white;
+}
+.isBlackColor{
+    color: black;
 }
 .symbolNearCircle{
     font-size: 6rem;
@@ -34,14 +40,13 @@
     height: 6rem;
 }
 .lineMainToggle{
-    border-bottom: 1px white solid;
+    border-bottom: 1px solid;
     width: 75%;
 }
 .arrowMainToggle{
-    color: white;
     font-size: 1rem;
     width: 20%;
-    border: 1px white solid;
+    border: 1px solid;
     aspect-ratio: 1;
     border-radius: 50% 50%;
     display: flex;
