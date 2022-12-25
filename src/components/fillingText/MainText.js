@@ -15,8 +15,12 @@ const MainText = ({isWhite}) => {
                     </svg>
                 </div>
                 <div className="textContainer">
-                    <div className="secondString">Bez kompromisu.</div>
-                    <div className="secondString">Idealnie takie jak lubisz.</div>
+                    {isWhite?    
+                    <><div className="secondString">Bez kompromisu.</div>
+                    <div className="secondString">Idealnie takie jak lubisz.</div></>  : 
+                    <><div className="secondString">Wszystko dla was.</div>
+                    <div className="secondString">Idealnie takie jak lubisz.</div></> }
+    
                     <div className="callName">KEUNE <span className="textContainerBold">DESIGN</span></div>
                 </div>
                 <div className="containerMainToggle">

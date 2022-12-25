@@ -26,7 +26,7 @@ transition-timing-function: ease-in-out;
 .mainToggle{
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 54%;
     font-size: 2rem;   
 }
 .isWhiteColor{
