@@ -4,6 +4,8 @@ import MainText from "./fillingText/MainText";
 import MainToggle from "./fillingText/MainToggle";
 import storeImg from "./storeImg";
 import Navbar from "./Navbar";
+import Carusel from "./Carusel";
+
 
 
 const Main = () => {
@@ -12,16 +14,17 @@ const Main = () => {
     const toggle = () => {
         setMainImg(!isMainImg)
     }
-
     return (
         <>
             <div className="main-container">
-                <Navbar isWhite={isMainImg}/>
-                <div className="img-fluid">
+                <Navbar isWhite={isMainImg} />
+                <Carusel/>
+                {/* <div className="img-fluid">
                     <img src={isMainImg ? storeImg.slide1 : storeImg.slide2} className='img-main'></img>
-                </div>
+                </div> */}
                 <MainText isWhite={isMainImg} />
                 <MainToggle toggle={toggle} isWhite={isMainImg} />
+
             </div>
 
         </>
