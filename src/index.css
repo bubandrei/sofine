@@ -16,6 +16,9 @@ ul {
 a {
   text-decoration: none;
 }
+a:hover{
+  color: gray;
+}
 
 .container {
   max-width: 1940px;

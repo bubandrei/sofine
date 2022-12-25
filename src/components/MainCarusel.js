@@ -3,7 +3,7 @@ import './MainCarusel.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const PAGE_WIDTH = 100;
 
-const MainCarusel = ({ children }) => {
+const MainCarusel = ({ children, toggle }) => {
 
     const [pages, setPages] = useState([]);
     const [offset, setOffset] = useState(0);
@@ -11,6 +11,7 @@ const MainCarusel = ({ children }) => {
     const handleLeftArrowClick = () => {
         setOffset((currentOffset) => {
             const newOffset = currentOffset + PAGE_WIDTH;
+            toggle(true);
             console.log(newOffset)
             return Math.min(newOffset, 0);
         })
@@ -19,7 +20,11 @@ const MainCarusel = ({ children }) => {
     const handleRightArrowClick = () => {
         setOffset((currentOffset) => {
             const newOffset = currentOffset - PAGE_WIDTH;
+            console.log(newOffset)
             const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
+            console.log(maxOffset)
+            console.log(Math.max(newOffset,maxOffset))
+            toggle(false);
             return Math.max(newOffset,maxOffset);
         })
     }
