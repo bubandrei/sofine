@@ -3,7 +3,7 @@ import './MainCarusel.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const PAGE_WIDTH = 100;
 
-const MainCarusel = ({ children, toggle }) => {
+const MainCarusel = ({ children, toggle, isWhite }) => {
 
     const [pages, setPages] = useState([]);
     const [offset, setOffset] = useState(0);
@@ -23,9 +23,9 @@ const MainCarusel = ({ children, toggle }) => {
             console.log(newOffset)
             const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
             console.log(maxOffset)
-            console.log(Math.max(newOffset,maxOffset))
+            console.log(Math.max(newOffset, maxOffset))
             toggle(false);
-            return Math.max(newOffset,maxOffset);
+            return Math.max(newOffset, maxOffset);
         })
     }
 
@@ -49,14 +49,20 @@ const MainCarusel = ({ children, toggle }) => {
 
     return (
         <div className="main-carusel-container">
-            <FaChevronLeft className="arrow" onClick={() => handleLeftArrowClick()} />
+
             <div className="window">
                 <div className="all-pages-container"
                     style={{
                         transform: `translateX(${offset}%)`,
                     }}>{pages}</div>
             </div>
-            <FaChevronRight className="arrow" onClick={() => handleRightArrowClick()} />
+            <div className={`mainToggle ${isWhite ? 'isWhiteColor' : 'isBlackColor'}`}>
+                <div className="toggleLeft toggle" onClick={() => { handleLeftArrowClick() }}>&lt;</div>
+                <div className="toggleRight toggle" onClick={() => { handleRightArrowClick() }}>&gt;</div>
+                <div>handellToggle</div>
+            </div>
+            {/* <FaChevronLeft className="arrow" onClick={() => handleLeftArrowClick()} /> */}
+            {/* <FaChevronRight className="arrow" onClick={() => handleRightArrowClick()} /> */}
         </div>
     )
 }

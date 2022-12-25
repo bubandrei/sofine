@@ -18,7 +18,7 @@ const Main = () => {
         <>
             <div className="main-container">
                 <Navbar isWhite={isMainImg} />
-                <Carusel toggle={toggle}/>
+                <Carusel toggle={toggle} isWhite={isMainImg}/>
                 {/* <div className="img-fluid">
                     <img src={isMainImg ? storeImg.slide1 : storeImg.slide2} className='img-main'></img>
                 </div> */}
