@@ -12,13 +12,11 @@ const ThirdPart = ({listOfName}) => {
         <>
             <div className="third-container">
                 <div className="inner-Third-Container">
-                    <div className="third-title">
+                    <div className="third-title third-row-effect-op">
                         <img src={design} className="third-img"></img>
-                        {/* <Name/>
-                        <ToggleSerie/> */}
                         <NameToggleColumn name={listOfName.design}/>
                     </div>
-                    <div className="third-row-img">
+                    <div className="third-row-img third-row-effect">
                         <img src={blend} className="third-img"></img>
                         <Name name={listOfName.blend}/>
                         <ToggleSerie/>

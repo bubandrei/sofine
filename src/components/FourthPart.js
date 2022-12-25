@@ -13,11 +13,11 @@ const FourthPart = ({listOfName}) => {
             <div className="fourth-container">
                 <div className="inner-Fourth-Container">
                     <div className="fourth-title">
-                        <img src={koloryzacja} className="third-img"></img>
+                        <img src={koloryzacja} className="third-img fourth-row-effect"></img>
                         <Name name={listOfName.koloryzacja}/>
                         <ToggleSerie/>
                     </div>
-                    <div className="fourth-row-img">
+                    <div className="fourth-row-img fourth-row-effect">
                         <img src={pure} className="fourth-img"></img>
                         <NameToggleColumn name={listOfName.sopure}/>
                         {/* <ToggleSerie/> */}
