@@ -20,3 +20,6 @@ transition-timing-function: ease-in-out;
 .arrow{
     cursor: pointer;
 }
+.imgForCarusel{
+    width: 100%;
+}
