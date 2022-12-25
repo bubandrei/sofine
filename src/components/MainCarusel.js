@@ -29,7 +29,7 @@ const MainCarusel = ({ children }) => {
             Children.map(children, child => {
                 return cloneElement(child, {
                     style: {
-                        height: '500px',
+                        // height: '500px',
                         minWidth: `${PAGE_WIDTH}%`,
                         maxWidth: `${PAGE_WIDTH}%`
                         // minWidth: `100%`,
