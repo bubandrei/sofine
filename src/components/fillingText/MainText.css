@@ -56,3 +56,44 @@
     text-align: center;
     width: 100%;
 }
+@media (max-width:1024px){
+    .mainTextContainer{
+        top: 30%;
+    }
+    .containerMainToggle{
+        margin-top: 4%;
+        height: 4rem;
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .mainTextContainer{
+        top: 22%;
+    }
+    .secondString{
+        margin-bottom: 4%;
+        font-size: 3vw;
+    }
+    .containerMainToggle{
+        margin-top: 0;
+        height: 4rem;
+        width: 100%;
+    }
+    .svgFill{
+        margin-bottom: 2%;
+    }
+}
+@media (max-width:768px){
+    .mainTextContainer{
+        top: 22%;
+    }
+    .secondString{
+        margin-bottom: 4%;
+        font-size: 3vw;
+    }
+    .containerMainToggle{
+        margin-top: 0;
+        height: 2rem;
+        width: 100%;
+    }
+}

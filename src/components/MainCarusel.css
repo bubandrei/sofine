@@ -45,3 +45,11 @@ transition-timing-function: ease-in-out;
 .toggle:hover{
     cursor: pointer;
 }
+@media(max-width:480px){
+    .toggleLeft{
+        font-size:1.5rem;
+    }
+    .toggleRight{
+        font-size:1.5rem;
+    }
+}

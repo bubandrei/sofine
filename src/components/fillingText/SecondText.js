@@ -8,7 +8,7 @@ const SecondText = ({name}) => {
     return (
         <>
             <div className="secondTextContainer">
-                <div className="svgFill">
+                <div className="svgFillSecond">
                     <svg height="100" width="100">
                         <line x1="00" y1="100" x2="100" y2="0"
                             stroke="black" stroke-width="1" />

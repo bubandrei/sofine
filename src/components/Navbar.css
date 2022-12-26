@@ -61,9 +61,6 @@ padding-top: 1%;
 .hamburger{
   display: none;
 }
-.hamburger-line{
-
-}
 @media (max-width:900px) {
   .nav-menu{
     display: none;
@@ -73,6 +70,5 @@ padding-top: 1%;
     text-align: end;
     padding-right: 5%;
 justify-self: flex-end;
-    
   }
 }
