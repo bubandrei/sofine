@@ -7,9 +7,12 @@
   display: grid;
   grid-template-columns: 0.2fr auto;
   align-items: center;
-  height: 100px;
+padding-top: 1%;
   width: 100%;
   margin: 0 auto;
+}
+.colorGray{
+  background: rgb(0, 0, 0, 0.6);
 }
 .navbar-logo{
   justify-self: start;
@@ -23,6 +26,12 @@
   margin-right: 30px;
   justify-self: end;
   align-items: center;
+}
+.nav-items{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav-links{
   color: white;

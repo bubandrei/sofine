@@ -11,17 +11,15 @@ import fb_BLACK from '../assets/fb.svg';
 import twitter_BLACK from '../assets/twitter.svg';
 import yt_BLACK from '../assets/yt.svg';
 import insta_BLACK from '../assets/insta.svg'
-import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
 import Dropmenu from "./Dropmenu";
 
 const Navbar = ({ isWhite }) => {
     const [dropdown, setDropDown] = useState(false);
 
-
     return (
         <>
             <div className="nav-container">
-                <nav className="navbar">
+                <nav className={dropdown ? "navbar colorGray" : "navbar"}>
                     <div className="navbar-logo">
                         <img src={isWhite ? logoKEUNEWhite : logoKEUNEBlack}></img>
                     </div>
@@ -30,39 +28,19 @@ const Navbar = ({ isWhite }) => {
                             if (item.title === 'Produkty') {
                                 return (
                                     <li key={item.id}
+                                    className='nav-items'
                                         onMouseEnter={() => setDropDown(true)}
-                                        onMouseLeave={() => setDropDown(false)}>
+                                        onMouseLeave={() => setDropDown(false)}
+                                        >
                                         <a href="/" className={isWhite ? "nav-links" : "nav-links-black"} >{item.title}</a>
                                         {dropdown && <Dropmenu />}
                                     </li>
-
                                 )
                             }
-                            return <li key={item.id}>
+                            return <li key={item.id} className='nav-items'>
                                 <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>{item.title}</a>
                             </li>
                         })}
-                        {/* <li>
-                            <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Nowosci</a>
-                        </li>
-                        <li>
-                            <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Produkty</a>
-                        </li>
-                        <li>
-                            <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Trendy</a>
-                        </li>
-                        <li>
-                            <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>O firmie</a>
-                        </li>
-                        <li>
-                            <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Salony</a>
-                        </li>
-                        <li>
-                            <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Dystrybutorzy</a>
-                        </li>
-                        <li>
-                            <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Kontakt</a>
-                        </li> */}
                         <li>
                             <div href="/" className="nav-links row-Item">
                                 <div className="firstRowIcon">

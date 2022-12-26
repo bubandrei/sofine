@@ -3,6 +3,7 @@
     position: absolute;
     z-index: 1;
     left: 0;
+    top: 100%;
 }
 .products-submenu li{
 background: rgb(0, 0, 0, 0.6);
