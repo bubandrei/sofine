@@ -17,6 +17,7 @@ padding-top: 1%;
 .navbar-logo{
   justify-self: start;
   margin-left: 30px;
+  width: 100%;
 }
 .nav-menu{
   display: grid;
@@ -56,4 +57,22 @@ padding-top: 1%;
 .styleImg{
   width: 15px;
   aspect-ratio: 1;
+}
+.hamburger{
+  display: none;
+}
+.hamburger-line{
+
+}
+@media (max-width:900px) {
+  .nav-menu{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    text-align: end;
+    padding-right: 5%;
+justify-self: flex-end;
+    
+  }
 }

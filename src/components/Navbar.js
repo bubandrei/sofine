@@ -10,7 +10,8 @@ import insta_WHITE from '../assets/insta_WHITE.svg'
 import fb_BLACK from '../assets/fb.svg';
 import twitter_BLACK from '../assets/twitter.svg';
 import yt_BLACK from '../assets/yt.svg';
-import insta_BLACK from '../assets/insta.svg'
+import insta_BLACK from '../assets/insta.svg';
+import burger from '../assets/burger.png';
 import Dropmenu from "./Dropmenu";
 
 const Navbar = ({ isWhite }) => {
@@ -56,6 +57,11 @@ const Navbar = ({ isWhite }) => {
                             </div>
                         </li>
                     </ul>
+                    <div className="hamburger">
+                        <div className="hamburger-line"><img src={burger}></img></div>
+                        {/* <div className="hamburger-line"></div>
+                        <div className="hamburger-line"></div> */}
+                    </div>
                     {/* <div className="hamburger" onClick={handleClick}>
                         {click ? (<FaTimes size={20} style={{ color: '#333' }} />) : (<FaBars size={20} style={{ color: '#333' }} />)}
 
