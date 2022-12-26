@@ -20,13 +20,25 @@
 .secondCallName{
     font-size: 3vw;
 }
-/* .secondString{
-    margin-bottom: 0;
-    font-size: 4vw;
-} */
 .svgFillSecond{
     margin-bottom: 8%;
 }
 .second-row-img{
     position: relative;
+}
+@media(max-width:1024px){
+    .secondTextContainer{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 35%;
+    }
+}
+@media(max-width:768px){
+    .secondTextContainer{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        width: 35%;
+    }
 }
