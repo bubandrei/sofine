@@ -34,3 +34,11 @@
         top: 70%;
     }
 }
+@media (max-width:480px){
+    .forNameToggleColumn{
+        top: 68%;
+    }
+    .container-NameToggleColumn{
+        width: 230%;
+    }
+}
