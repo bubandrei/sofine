@@ -14,6 +14,14 @@ const MainText = ({isWhite}) => {
                         <text x='40' y='83' fontSize='80' stroke={isWhite? "white": "black"} fill={isWhite? "white": "black"}>1.</text>
                     </svg>
                 </div>
+                <div className="svgFillSmall">
+                    <svg height="50" width="50">
+                        <line x1="00" y1="50" x2="50" y2="0"
+                            stroke={isWhite? "white": "black"} stroke-width="1" />
+                        <circle cx="12" cy="31" r="10" stroke={isWhite? "white": "black"} stroke-width="3" fill="transparent" />
+                        <text x='20' y='41' fontSize='40' stroke={isWhite? "white": "black"} fill={isWhite? "white": "black"}>1.</text>
+                    </svg>
+                </div>
                 <div className="textContainer">
                     {isWhite?    
                     <><div className="secondString">Bez kompromisu.</div>

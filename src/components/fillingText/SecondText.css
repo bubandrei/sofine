@@ -26,6 +26,9 @@
 .second-row-img{
     position: relative;
 }
+.svgFillSecondSmall{
+    display: none;
+}
 @media(max-width:1024px){
     .secondTextContainer{
         position: absolute;
@@ -40,5 +43,13 @@
         top: 5%;
         left: 10%;
         width: 35%;
+    }
+}
+@media(max-width:480px){
+    .svgFillSecond{
+display: none;
+    }
+    .svgFillSecondSmall{
+        display: block;
     }
 }

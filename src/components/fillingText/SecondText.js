@@ -16,6 +16,14 @@ const SecondText = ({name}) => {
                         <text x='40' y='83' fontSize='80' stroke="black" fill="black">2.</text>
                     </svg>
                 </div>
+                <div className="svgFillSecondSmall">
+                    <svg height="50" width="50">
+                        <line x1="00" y1="50" x2="50" y2="0"
+                            stroke="black" stroke-width="1" />
+                        <circle cx="12" cy="31" r="10" stroke="black" stroke-width="3" fill="transparent" />
+                        <text x='20' y='41' fontSize='40' stroke="black" fill="black">2.</text>
+                    </svg>
+                </div>
                 <div className="callTextContainer">
                     <div className="secondCallName">
                         <div>{name}</div>

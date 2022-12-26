@@ -56,6 +56,9 @@
     text-align: center;
     width: 100%;
 }
+.svgFillSmall{
+    display: none;
+}
 @media (max-width:1024px){
     .mainTextContainer{
         top: 30%;
@@ -96,4 +99,22 @@
         height: 2rem;
         width: 100%;
     }
+}
+@media (max-width:480px){
+.svgFill{
+    display: none;
+}
+.svgFillSmall{
+    display: block;
+}
+    .mainTextContainer{
+        top: 35%;
+    }
+    .lineMainToggle{
+    border-bottom: 1px solid;
+    width: 60%;
+}
+.arrowMainToggle{
+    width: 30%;
+}
 }
