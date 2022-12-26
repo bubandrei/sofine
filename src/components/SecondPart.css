@@ -1,25 +1,30 @@
-.second-container{
-margin-bottom: 0.5%;
+.second-container {
+    margin-bottom: 0.5%;
 }
-.inner-Second-Container{
+
+.inner-Second-Container {
     display: flex;
     max-width: 100%;
     justify-content: flex-end;
 }
-.second-title{
+
+.second-title {
     position: relative;
-min-width: 33%;
+    min-width: 33%;
 }
-.second-row-img{
+
+.second-row-img {
     min-width: 66.5%;
     margin-left: 0.5%;
     filter: grayscale(0);
-    transition: 1s; 
+    transition: 1s;
 }
-.second-row-img:hover{
+
+.second-row-img:hover {
     filter: grayscale(1);
 }
-.second-img{
+
+.second-img {
     width: 100%;
 
 }

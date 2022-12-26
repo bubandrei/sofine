@@ -7,11 +7,8 @@
     line-height: 90%;
 }
 .container-NameToggleColumn{
-    /* position: absolute; */
     display: flex;
     justify-content: space-between;
-    /* top:100%;
-    left: 2%; */
     width: 268%;
     align-items: center;
 }

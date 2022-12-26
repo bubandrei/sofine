@@ -1,9 +1,6 @@
 import React from "react";
 import './SecondText.css'
 
-
-
-
 const SecondText = ({name}) => {
     return (
         <>

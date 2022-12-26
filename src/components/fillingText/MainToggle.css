@@ -10,13 +10,6 @@
 .isBlackColor{
     color: black;
 }
-
-.toggleLeft{
-
-}
-.toggleRight{
-
-}
 .toggle:hover{
     cursor: pointer;
 }

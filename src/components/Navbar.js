@@ -59,15 +59,7 @@ const Navbar = ({ isWhite }) => {
                     </ul>
                     <div className="hamburger">
                         <div className="hamburger-line"><img src={burger}></img></div>
-                        {/* <div className="hamburger-line"></div>
-                        <div className="hamburger-line"></div> */}
                     </div>
-                    {/* <div className="hamburger" onClick={handleClick}>
-                        {click ? (<FaTimes size={20} style={{ color: '#333' }} />) : (<FaBars size={20} style={{ color: '#333' }} />)}
-
-                    </div> */}
-
-
                 </nav>
 
 

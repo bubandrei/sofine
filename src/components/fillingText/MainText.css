@@ -1,37 +1,46 @@
-.mainTextContainer{
+.mainTextContainer {
     position: absolute;
     top: 35%;
     left: 10%;
 
 }
-.isWhiteColor{
+
+.isWhiteColor {
     color: white;
 }
-.isBlackColor{
+
+.isBlackColor {
     color: black;
 }
-.symbolNearCircle{
+
+.symbolNearCircle {
     font-size: 6rem;
 
 }
-.textContainer{
+
+.textContainer {
     font-size: 4rem;
 }
-.textContainerBold{
+
+.textContainerBold {
     font-weight: 900;
 }
-.callName{
+
+.callName {
     font-size: 2vw;
     margin-top: 4%;
 }
-.secondString{
+
+.secondString {
     margin-bottom: 4%;
     font-size: 4vw;
 }
-.svgFill{
+
+.svgFill {
     margin-bottom: 8%;
 }
-.containerMainToggle{
+
+.containerMainToggle {
     display: flex;
     justify-content: space-between;
     width: 55%;
@@ -39,11 +48,13 @@
     margin-top: 8%;
     height: 6rem;
 }
-.lineMainToggle{
+
+.lineMainToggle {
     border-bottom: 1px solid;
     width: 75%;
 }
-.arrowMainToggle{
+
+.arrowMainToggle {
     font-size: 1rem;
     width: 20%;
     border: 1px solid;
@@ -51,70 +62,86 @@
     border-radius: 50% 50%;
     display: flex;
 }
-.arrowStyle{
+
+.arrowStyle {
     align-self: center;
     text-align: center;
     width: 100%;
 }
-.svgFillSmall{
+
+.svgFillSmall {
     display: none;
 }
-@media (max-width:1024px){
-    .mainTextContainer{
+
+@media (max-width:1024px) {
+    .mainTextContainer {
         top: 30%;
     }
-    .containerMainToggle{
+
+    .containerMainToggle {
         margin-top: 4%;
         height: 4rem;
         width: 100%;
     }
 }
-@media (max-width:768px){
-    .mainTextContainer{
+
+@media (max-width:768px) {
+    .mainTextContainer {
         top: 22%;
     }
-    .secondString{
+
+    .secondString {
         margin-bottom: 4%;
         font-size: 3vw;
     }
-    .containerMainToggle{
+
+    .containerMainToggle {
         margin-top: 0;
         height: 4rem;
         width: 100%;
     }
-    .svgFill{
+
+    .svgFill {
         margin-bottom: 2%;
     }
 }
-@media (max-width:768px){
-    .mainTextContainer{
+
+@media (max-width:768px) {
+    .mainTextContainer {
         top: 22%;
     }
-    .secondString{
+
+    .secondString {
         margin-bottom: 4%;
         font-size: 3vw;
     }
-    .containerMainToggle{
+
+    .containerMainToggle {
         margin-top: 0;
         height: 2rem;
         width: 100%;
     }
 }
-@media (max-width:480px){
-.svgFill{
-    display: none;
-}
-.svgFillSmall{
-    display: block;
-}
-    .mainTextContainer{
+
+@media (max-width:480px) {
+    .svgFill {
+        display: none;
+    }
+
+    .svgFillSmall {
+        display: block;
+    }
+
+    .mainTextContainer {
         top: 35%;
     }
-    .lineMainToggle{
-    border-bottom: 1px solid;
-    width: 60%;
-}
-.arrowMainToggle{
-    width: 30%;
-}
+
+    .lineMainToggle {
+        border-bottom: 1px solid;
+        width: 60%;
+    }
+
+    .arrowMainToggle {
+        width: 30%;
+    }
 }

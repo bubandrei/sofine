@@ -1,55 +1,65 @@
-.secondTextContainer{
+.secondTextContainer {
     position: absolute;
     top: 35%;
     left: 10%;
     width: 35%;
 }
-.symbolNearCircle{
-    font-size: 6rem;
 
+.symbolNearCircle {
+    font-size: 6rem;
 }
-.callTextContainer{
+
+.callTextContainer {
     font-size: 4rem;
     text-align: start;
     position: absolute;
     left: 15%;
 }
-.textContainerBold{
+
+.textContainerBold {
     font-weight: 900;
 }
-.secondCallName{
+
+.secondCallName {
     font-size: 3vw;
 }
-.svgFillSecond{
+
+.svgFillSecond {
     margin-bottom: 8%;
 }
-.second-row-img{
+
+.second-row-img {
     position: relative;
 }
-.svgFillSecondSmall{
+
+.svgFillSecondSmall {
     display: none;
 }
-@media(max-width:1024px){
-    .secondTextContainer{
+
+@media(max-width:1024px) {
+    .secondTextContainer {
         position: absolute;
         top: 20%;
         left: 10%;
         width: 35%;
     }
 }
-@media(max-width:768px){
-    .secondTextContainer{
+
+@media(max-width:768px) {
+    .secondTextContainer {
         position: absolute;
         top: 5%;
         left: 10%;
         width: 35%;
     }
 }
-@media(max-width:480px){
-    .svgFillSecond{
-display: none;
+
+@media(max-width:480px) {
+    .svgFillSecond {
+        display: none;
     }
-    .svgFillSecondSmall{
+
+    .svgFillSecondSmall {
         display: block;
     }
 }
