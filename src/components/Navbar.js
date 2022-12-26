@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import './Navbar.css';
+import { naveItems } from "./storeNav.js";
 import logoKEUNEBlack from '../assets/logo_KEUNE.svg';
 import logoKEUNEWhite from '../assets/logo_KEUNE_WHITE.svg';
 import fb_WHITE from '../assets/fb_WHITE.svg';
@@ -10,8 +11,13 @@ import fb_BLACK from '../assets/fb.svg';
 import twitter_BLACK from '../assets/twitter.svg';
 import yt_BLACK from '../assets/yt.svg';
 import insta_BLACK from '../assets/insta.svg'
+import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
+import Dropmenu from "./Dropmenu";
 
 const Navbar = ({ isWhite }) => {
+    const [dropdown, setDropDown] = useState(false);
+
+
     return (
         <>
             <div className="nav-container">
@@ -20,7 +26,23 @@ const Navbar = ({ isWhite }) => {
                         <img src={isWhite ? logoKEUNEWhite : logoKEUNEBlack}></img>
                     </div>
                     <ul className='nav-menu'>
-                        <li>
+                        {naveItems.map((item) => {
+                            if (item.title === 'Produkty') {
+                                return (
+                                    <li key={item.id}
+                                        onMouseEnter={() => setDropDown(true)}
+                                        onMouseLeave={() => setDropDown(false)}>
+                                        <a href="/" className={isWhite ? "nav-links" : "nav-links-black"} >{item.title}</a>
+                                        {dropdown && <Dropmenu />}
+                                    </li>
+
+                                )
+                            }
+                            return <li key={item.id}>
+                                <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>{item.title}</a>
+                            </li>
+                        })}
+                        {/* <li>
                             <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Nowosci</a>
                         </li>
                         <li>
@@ -40,7 +62,7 @@ const Navbar = ({ isWhite }) => {
                         </li>
                         <li>
                             <a href="/" className={isWhite ? "nav-links" : "nav-links-black"}>Kontakt</a>
-                        </li>
+                        </li> */}
                         <li>
                             <div href="/" className="nav-links row-Item">
                                 <div className="firstRowIcon">

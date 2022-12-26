@@ -4,6 +4,7 @@ import MainText from "./fillingText/MainText";
 import storeImg from "./storeImg";
 import Navbar from "./Navbar";
 import Carusel from "./Carusel";
+import Dropmenu from "./Dropmenu";
 
 
 
